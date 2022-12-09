@@ -2,7 +2,7 @@ name: Merge develop into flake-demo
 on:
   push:
     branches:
-      - develop
+      - non-existent-branch
 jobs:
   merge-master-into-develop:
     runs-on: ubuntu-latest
